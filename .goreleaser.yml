@@ -5,7 +5,9 @@ before:
     - go mod tidy
 
 builds:
-  - ldflags:
+  - goos:
+      - 'darwin'
+    ldflags:
       - -s -w -X github.com/{{ .Env.GITHUB_REPOSITORY_OWNER }}/{{ .ProjectName }}/cmd.version={{ .Version }}
 
 changelog:
