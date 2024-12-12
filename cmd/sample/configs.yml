@@ -49,5 +49,5 @@ filters:
 
 ## If you want several filter, please add similar bullet.
 # - name: my-custom-filter-b
-#   rules:
+#   condition:
 # ...
