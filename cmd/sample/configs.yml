@@ -1,0 +1,53 @@
+#=======================
+# Common Settings
+#=======================
+## start port(Default: 8080)
+port: "8080" # must be string
+
+#=======================
+# Each Filter Settings
+#=======================
+## If you want to extract metrics based on conditions created by an arbitrary filter,
+  ## you can add them by making the following settings.
+filters:
+- 
+  ## filter name. The metrics will be output with the name specified here.
+  name: my-custom-filter-a
+
+  condition:
+    ## Specify the reminder due date relative to the current time (in minutes).
+    ## For example, to filter out reminders due within the next day(24 hours), use the following:
+    deadline: 24h
+
+    ## If you want to include completed tickets, set this option to true.(Default: false)
+    completed: true
+
+    ## List name. (Default: all list)
+    list:
+    - shopping list
+    - todo list
+    - ...
+
+    ## Priority.(Default: all priority)
+    priority:
+    - none
+    - low
+    - medium
+    - high
+
+    ## Title contains keyword.(Default: none)
+    title:
+    - ASAP
+    - URGENCY
+    - ...
+
+    ## Notes contains keyword.(Default: none)
+    notes:
+    - bossname
+    - company-a
+    - ...
+
+## If you want several filter, please add similar bullet.
+# - name: my-custom-filter-b
+#   condition:
+# ...
