@@ -2,7 +2,7 @@
 # Common Settings
 #=======================
 ## start port(Default: 8080)
-port: 8080
+port: "8080" # must be string
 
 #=======================
 # Each Filter Settings
