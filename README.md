@@ -17,6 +17,7 @@ Create a configuration file with the following command and edit it.
 
 This app is **ONLY** available on macOS and depends on [`reminders-cli`](https://github.com/keith/reminders-cli) to retrieve data.
 
+
 ```sh
 # install
 brew tap keith/formulae
@@ -30,7 +31,6 @@ vi ~/.reminders-exporter/config.yml
 brew services start reminders-exporter
 ```
 
-> [!NOTE]  
+> [!NOTE]
 > The first time you retrieve data, a prompt will appear asking for permission to access your reminder data.
-> Select "Allow."
 > <img width="372" alt="privary setting" src="https://github.com/user-attachments/assets/d4e775eb-dfbc-45e3-9b34-3ba8964385b2" />
