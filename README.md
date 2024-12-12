@@ -29,3 +29,8 @@ vi ~/.reminders-exporter/config.yml
 # start
 brew services start reminders-exporter
 ```
+
+> [!NOTE]  
+> The first time you retrieve data, a prompt will appear asking for permission to access your reminder data.
+> Select "Allow."
+> <img width="372" alt="privary setting" src="https://github.com/user-attachments/assets/d4e775eb-dfbc-45e3-9b34-3ba8964385b2" />
