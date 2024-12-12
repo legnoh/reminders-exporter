@@ -8,7 +8,7 @@ import (
 )
 
 const (
-	namespace = "reminder"
+	namespace = "reminders"
 )
 
 type ReminderCollector struct {
