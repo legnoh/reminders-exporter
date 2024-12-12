@@ -2,7 +2,7 @@
 
 [![Static Badge](https://img.shields.io/badge/homebrew-legnoh%2Fetc%2Freminders--exporter-orange?logo=apple)](https://github.com/legnoh/homebrew-etc/blob/main/Formula/reminders-exporter.rb)
 
-This tool provides daemon service for Apple Reminder app data exporter for Prometheus.
+This tool provides daemon service for Apple Reminders.app data exporter for Prometheus.
 
 ## Usage
 
