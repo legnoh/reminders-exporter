@@ -27,7 +27,8 @@ brews:
         Please check usage at README:
             https://github.com/{{ .Env.GITHUB_REPOSITORY_OWNER }}/{{ .ProjectName }}/blob/main/README.md
     homepage: "https://github.com/{{ .Env.GITHUB_REPOSITORY_OWNER }}/{{ .ProjectName }}"
-    description: "This app is a daemon that converts Reminders.app data into metrics in Prometheus Exporter format and provides them."
+    description: |
+      {{ .Env.DESCRIPTION }}
     license: MIT
     skip_upload: auto
     dependencies:
@@ -42,5 +43,5 @@ brews:
       system "#{bin}/{{ .ProjectName }} --help"
     repository:
       owner: "{{ .Env.GITHUB_REPOSITORY_OWNER }}"
-      name: homebrew-etc
+      name: "{{ .Env.HOMEBREW_REPO_NAME }}"
       branch: main
