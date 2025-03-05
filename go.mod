@@ -2,7 +2,7 @@ module github.com/legnoh/reminders-exporter
 
 go 1.23.3
 
-require github.com/prometheus/client_golang v1.21.0
+require github.com/prometheus/client_golang v1.21.1
 
 require (
 	github.com/creasty/defaults v1.8.0
