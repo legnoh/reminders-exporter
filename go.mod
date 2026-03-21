@@ -1,6 +1,6 @@
 module github.com/legnoh/reminders-exporter
 
-go 1.23.3
+go 1.26.1
 
 require github.com/prometheus/client_golang v1.23.2
 
