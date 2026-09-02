@@ -1,6 +1,6 @@
 module github.com/legnoh/reminders-exporter
 
-go 1.27.0
+go 1.27.1
 
 require (
 	github.com/creasty/defaults v1.8.0
